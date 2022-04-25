@@ -1,0 +1,8 @@
+.message {
+    text-align: center;
+}
+
+.message p {
+    color: #333;
+    font-weight: bold;
+}
