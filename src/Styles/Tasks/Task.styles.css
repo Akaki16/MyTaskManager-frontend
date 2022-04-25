@@ -1,0 +1,54 @@
+.task {
+    width: 450px;
+    height: auto;
+    background: rgb(44, 43, 56);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.task-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.task h1 {
+    font-size: 19px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.task article {
+    color: rgb(204, 201, 201);
+}
+
+.task-footer button {
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.task-footer button:hover {
+    opacity: 0.9;
+}
+
+.task-footer button:nth-child(1) {
+    background-color: rgb(51, 51, 54);
+}
+
+.task-footer button:nth-child(2) {
+    background-color: rgb(146, 82, 82);
+}
+
+.task-footer button:nth-child(3) {
+    background-color: rgb(82, 117, 146);
+}
